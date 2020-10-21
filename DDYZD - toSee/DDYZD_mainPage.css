@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#header #main_image{
+    text-align: center;
+    position:relative;
+    left: 45px;
+    top: 0px;
+    height: 80px;
+    width: 100px;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#header h1 {
+    position: relative;
+    left: 19px;
+    top: 9px;
+}
+
+#menu_icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 9px;
+    top: 21px;
+}
+
+#main_image {
+    position: relative;
+    top: 8px;
+}
+
+#login_icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 24px;
+    top: 21px;
+}
+
+#slide_image {
+    height: 533px;
+    background-color: rgb(58, 55, 55);
+    margin: 0px;
+    background: linear-gradient();
+}
+
+#pang_people {
+position: relative;
+width: 1400px;
+height: 533px;
+left: 260px;
+}
+
+#wrap1 {
+    background-color: rgb(58, 55, 55);  
+    width: 1400px;
+    height: 450px;
+    margin: 0px 0px 30px 260px;   
+    border-radius: 25px;
+
+    
+}
+
+#recommendation {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 240px 20px 240px;
+    padding-top: 35px;
+    
+}
+
+#recommendation_2 {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 237px 0px 240px;
+
+}
+
+
+#for_all_circles {
+    height: 130px;
+    background-color: black;
+    color: white;
+}
+
+#for_all_circles p {
+    position: relative;
+    top: 55px;
+}
+
+#all_circles {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#circles_nav_bar 
+{
+    width: 1400px;
+    height: 100px;
+    background-color: rgb(58, 55, 55);
+    position: relative;
+    left: 259px;
+    border-radius: 20px;
+}
+
+#circles_nav_bar li{
+    float: left;
+}
+
+.mySlides {
+    width: 1400px;
+    height: 533px;
+    display: none;
+    position: relative;
+    left: 255px;
+}
+
+.button-left {
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    top: 493px;
+    left: 260px;
+}
+
+.button-right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 493px;
+    left: 1610px;
+}
+
+.img_pang {
+    width: 305px;
+    height: 160px;
+    border-radius: 17px 17px 0 0;
+    padding: 0px;
+}
+
+
+.nav_bar_icon {
+    border-right: solid 1px;
+}
+
+.nav_bar_icon a {
+    color: white;
+}
+.nav_bar_icon li{
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    top: 0px;
+    left: 300px;
+    color: white;
+    padding: 20px 0 10px 0;
+    border-left: solid black 2px;
+}
+
+.nav_bar_image {
+    width: 40px;
+    height: 40px;
+}
+
+.nav_bar_guitar {
+    border-right: solid black 2px;
+}
+
+.balloon {
+    width: 305px;
+    height: 65px;
+    margin: 0 45px;
+}
+
+.header_login {
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    float: right;
+    right: 126px;
+    top: 25px;
+}
+
+.header_register {
+    font-size: 20px;
+    position: relative;
+    right: 21px;
+    top: -2px;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+.container {
+    width: 305px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgb(246, 246, 246);
+    margin: 0 45px 0 45px;
+}
+
+.container_all {
+    width: 305px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgb(58, 55, 55);
+    margin: 60px -196px;
+}
+
+.container_explain {
+    height: 63px;
+    position: relative;
+    left: 10px;
+    width: 285px;
+    border-bottom: solid rgb(156, 156, 156);
+    
+}
+
+
+
+.container_explain a {
+    text-decoration: none;
+}
+
+.rec_dong {
+    width: 150px;
+    font-size: 20px;
+    position: relative;
+    left: 286px;
+    top: 100px;
+    margin: 1px;
+    color: white;
+}
+
+.circle_name {
+    width: 51px;
+    height: 27px;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    color: black;
+}
+
+.circle_name_white {
+    width: 51px;
+    height: 27px;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    color: white;
+}
+
+.pang_logo {    
+    position: relative;
+    left: 170px;    
+    top: 6px;
+}
+
+.extra_logo_1 {
+    float: left;
+    width: 14px;
+    height: 24px;
+    margin: 14px 10px 9px 10px;
+}
+
+.extra_logo_2 {
+    float: left;
+    width: 24px;
+    width: 24px;
+    margin: 7px 7px 5px 8px;
+}
+
+
+
+.extra_logo {
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.jjak {
+    position: relative;
+    top: 26px;
+    right: 36px;
+}
+
+
+footer {
+    margin-top: 150px;
+    height: 400px;
+    background-color: rgb(58, 55, 55);
+    text-align: center;
+}
+
+#footer-div {
+    width: 1400px;
+    height: 100px;
+    margin-left: 270px;
+}
+
+.footer-explain li{
+    display: inline-flex;
+    margin: 10px 40px;
+    position: relative;
+    left: 50px;
+    top: 110px;
+}
+
+.footer-explain p {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    left: 16px;
+}
+
+.footer-text {
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+.footer-image {
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+
+.footer-each {
+    display: inline-block;
+}
+
+
+.copyright {
+    color: white;
+    position: relative;
+    top: 110px;
+    font-size: 15px;
+    opacity: 60%;
+}
+
+.purple-line {
+    width: 680px;
+    height: 5px;
+    position: relative;
+    top: 80px;
+    left: 0px;
+}
+
+
+#circles_nav_bar li:hover {
+    background-color: rgb(127, 130, 217);
+}
+
+
+.container_all a:hover{
+    color: rgb(127, 130, 217);
+}
+
+#login-register a:hover {
+    color: rgb(127, 130, 217);
+}
+
+.circle-name a:hover {
+    background-color: gray;
+}
